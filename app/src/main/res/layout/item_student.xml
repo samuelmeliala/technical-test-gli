@@ -16,7 +16,7 @@
         android:padding="16dp">
 
         <ImageView
-            android:id="@+id/profileImageView"
+            android:id="@+id/imgProfile"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:scaleType="centerCrop"
@@ -29,14 +29,14 @@
             android:layout_marginStart="16dp">
 
             <TextView
-                android:id="@+id/nameTextView"
+                android:id="@+id/tvName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
             <TextView
-                android:id="@+id/addressTextView"
+                android:id="@+id/tvAddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"/>

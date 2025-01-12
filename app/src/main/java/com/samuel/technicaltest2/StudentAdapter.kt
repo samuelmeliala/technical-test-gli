@@ -18,9 +18,9 @@ class StudentAdapter(private val students: List<Student>) :
     RecyclerView.Adapter<StudentAdapter.StudentViewHolder>() {
 
     class StudentViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val imageViewProfile: ImageView = itemView.findViewById(R.id.profileImageView)
-        val textViewName: TextView = itemView.findViewById(R.id.nameTextView)
-        val textViewAddress: TextView = itemView.findViewById(R.id.addressTextView)
+        val imageViewProfile: ImageView = itemView.findViewById(R.id.imgProfile)
+        val textViewName: TextView = itemView.findViewById(R.id.tvName)
+        val textViewAddress: TextView = itemView.findViewById(R.id.tvAddress)
         val cardView: View = itemView
     }
 

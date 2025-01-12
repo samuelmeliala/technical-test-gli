@@ -15,9 +15,7 @@ class StudentListActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.studentRecyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        // Load sample data (you can replace this with network call or local database)
         val students = loadSampleData()
-
         val adapter = StudentAdapter(students)
         recyclerView.adapter = adapter
     }
